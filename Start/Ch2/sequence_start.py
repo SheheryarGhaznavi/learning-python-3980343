@@ -32,13 +32,14 @@ print( my_list[::-1] )
 
 
 # Tuples are like lists, but they are immutable
-my_tuple = (1, 2, 3, 'this is tring', 5)
+print("tuple")
+my_tuple = (my_list, 2, 3, 'this is tring', 5)
 print(my_tuple[1])
 # my_tuple[1] = 2
 print(my_tuple)
 
 # Sets are also sequences, but they contain unique values
-my_set = {1, 2, 3, 'this is tring', 5, 4, 4, 3}
+my_set = {1, 2, 3, 'this is tring', 5, 4, 4, 3, 2.3, 1.2}
 print(my_set)
 # print(my_set[2])
 
